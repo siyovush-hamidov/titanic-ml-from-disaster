@@ -69,3 +69,8 @@ if st.button('Узнать'):
         st.markdown("<h1 style='text-align: center; color: black;'>К сожалению, этот пассажир не выжил после крушения лайнера...</h1>", unsafe_allow_html=True)
     else:
         st.markdown("<h1 style='text-align: center; color: black;'>К счастью, пассажир выжил после крушения лайнера!</h1>", unsafe_allow_html=True)
+quote = """
+> "Я считаю, что жизнь — это подарок, и я не собираюсь тратить его зря. Вы не знаете, какую руку вам раздадут следующей. Вы учитесь принимать жизнь такой, какая она есть... чтобы каждый день был важен." - Джек
+"""
+
+st.markdown(quote)
