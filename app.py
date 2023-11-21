@@ -24,17 +24,17 @@ age = st.slider('Age', 1, 100, 30)
 
 if(age <= 11):
     age = 0
-elif(age > 11 & age <= 18):
+elif(age > 11 and age <= 18):
     age = 1
-elif(age > 18 & age <= 22):
+elif(age > 18 and age <= 22):
     age = 2
-elif(age > 22 & age <= 27):
+elif(age > 22 and age <= 27):
     age = 3
-elif(age > 27 & age <= 33):
+elif(age > 27 and age <= 33):
     age = 4
-elif(age > 33 & age <= 40):
+elif(age > 33 and age <= 40):
     age = 5
-elif(age > 40 & age <= 66):
+elif(age > 40 and age <= 66):
     age = 6
 elif(age > 66):
     age = 7
@@ -43,13 +43,13 @@ fare = st.slider('Salary for three days', 0, 1000, 1)
 
 if(fare <= 8):
     fare = 0
-elif(fare > 8 & fare <= 14):
+elif(fare > 8 and fare <= 14):
     fare = 1
-elif(fare > 14 & fare <= 31):
+elif(fare > 14 and fare <= 31):
     fare = 2
-elif(fare > 31 & fare <= 99):
+elif(fare > 31 and fare <= 99):
     fare = 3
-elif(fare > 99 & fare <= 250):
+elif(fare > 99 and fare <= 250):
     fare = 4
 elif(fare > 250):
     fare = 5
