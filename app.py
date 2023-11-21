@@ -39,7 +39,7 @@ elif(age > 40 and age <= 66):
 elif(age > 66):
     age = 7
 
-fare = st.slider('Недельный заработок', 0, 1000, 20)
+fare = st.slider('Недельный заработок', 0, 1000, 100)
 
 if(fare <= 8):
     fare = 0
