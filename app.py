@@ -41,11 +41,11 @@ elif(age > 66):
 
 fare = st.slider('Salary for three days', 0, 1000, 1)
 
-if(fare <= 7.91):
+if(fare <= 8):
     fare = 0
-elif(fare > 7.91 & fare <= 14.454):
+elif(fare > 8 & fare <= 14):
     fare = 1
-elif(fare > 14.454 & fare <= 31):
+elif(fare > 14 & fare <= 31):
     fare = 2
 elif(fare > 31 & fare <= 99):
     fare = 3
