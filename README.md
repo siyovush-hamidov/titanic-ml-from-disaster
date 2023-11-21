@@ -1,5 +1,5 @@
 # Titanic Survival Prediction
-
+https://titanic-ml-from-disaster-siyovushchik1414.streamlit.app/
 !Titanic Poster
 
 ## Описание проекта
