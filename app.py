@@ -70,10 +70,7 @@ if st.button('Узнать'):
     else:
         st.markdown("<h1 style='text-align: center; color: black;'>К счастью, пассажир выжил после крушения лайнера!</h1>", unsafe_allow_html=True)
 
-<audio controls>
-  <source src="your-audio-file.mp3" type="audio/mpeg">
-  Ваш браузер не поддерживает аудио элемент.
-</audio>
+st.audio('My Heart Will Go On - Céline Dion.mp3')
 
       
 quote = """
