@@ -19,7 +19,7 @@ def process_input(sex, age, fare, is_alone):
 # Создайте форму для ввода данных
 st.markdown("<h1 style='text-align: center; color: black;'>Выживете ли вы на Титанике?</h1>", unsafe_allow_html=True)
 st.image('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca6c7bc7-3c52-482a-9d4c-5043d91da7c3/dfpb7y1-bfff4c04-4e77-4af6-bda0-a8060abb8097.png/v1/fill/w_900,h_1303,q_80,strp/my_titanic_poster_2023_editon_by_doodle_for_adventure_dfpb7y1-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMyIsInBhdGgiOiJcL2ZcL2NhNmM3YmM3LTNjNTItNDgyYS05ZDRjLTUwNDNkOTFkYTdjM1wvZGZwYjd5MS1iZmZmNGMwNC00ZTc3LTRhZjYtYmRhMC1hODA2MGFiYjgwOTcucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.F4woajhvJRW4DDE3vk1GnDTVZ_-NKewPb2_IjUn4q2E', caption='Я считаю, что жизнь — это подарок, и я не собираюсь тратить его зря. Вы не знаете, какую руку вам раздадут следующей. Вы учитесь принимать жизнь такой, какая она есть... чтобы каждый день был важен. Джек', use_column_width=True)
-
+message = st.text_area('Имя')
 st.text_input('Имя')
 sex = st.selectbox('Пол', ['Мужчина', 'Женщина'])
 age = st.slider('Возраст', 1, 100, 30)
