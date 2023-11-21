@@ -18,6 +18,7 @@ def process_input(sex, age, fare, is_alone):
 
 # Создайте форму для ввода данных
 st.markdown("<h1 style='text-align: center; color: black;'>Выживете ли вы на Титанике?</h1>", unsafe_allow_html=True)
+st.audio('My Heart Will Go On - Céline Dion.mp3', caption = 'My Heart Will Go On - Céline Dion')
 st.image('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca6c7bc7-3c52-482a-9d4c-5043d91da7c3/dfpb7y1-bfff4c04-4e77-4af6-bda0-a8060abb8097.png/v1/fill/w_900,h_1303,q_80,strp/my_titanic_poster_2023_editon_by_doodle_for_adventure_dfpb7y1-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMyIsInBhdGgiOiJcL2ZcL2NhNmM3YmM3LTNjNTItNDgyYS05ZDRjLTUwNDNkOTFkYTdjM1wvZGZwYjd5MS1iZmZmNGMwNC00ZTc3LTRhZjYtYmRhMC1hODA2MGFiYjgwOTcucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.F4woajhvJRW4DDE3vk1GnDTVZ_-NKewPb2_IjUn4q2E', caption='Я считаю, что жизнь — это подарок, и я не собираюсь тратить его зря. Вы не знаете, какую руку вам раздадут следующей. Вы учитесь принимать жизнь такой, какая она есть... чтобы каждый день был важен. -Джек', use_column_width=True)
 
 name = st.text_input('Имя')
@@ -70,8 +71,6 @@ if st.button('Узнать'):
     else:
         st.markdown("<h1 style='text-align: center; color: black;'>К счастью, пассажир выжил после крушения лайнера!</h1>", unsafe_allow_html=True)
 
-st.audio('My Heart Will Go On - Céline Dion.mp3')
-
 quote = """
 > Роуз : Я знаю, о чем ты, должно быть, думаешь. «Бедная маленькая богатая девочка, что она знает о страданиях?»
 Джек : Нет-нет, я не об этом думал. Я думал о том, что могло случиться с этой девушкой, что заставило ее думать, что у нее нет выхода?
@@ -105,3 +104,24 @@ quote = """
 """
 st.markdown(quote)
 
+quote = """
+> Уоллес Хартли : [ оркестр закончил играть, и Хартли говорит группе, что они могут отправиться за лодками. Он остается и начинает играть «Ближе к тебе, мой Бог». Один за другим группа возвращается и играет, а сцены меняются. когда мелодия заканчивается, вода вот-вот их поглотит ] Джентльмены. Для меня было большой честью играть с вами сегодня вечером.
+"""
+st.markdown(quote)
+
+quote = """
+> Старая Роза : [ Броку, Лиззи и сотрудникам Брока ] Я видела всю свою жизнь так, как будто я ее уже прожила. Бесконечный парад вечеринок и котильонов, яхт и матчей в поло. Всегда одни и те же узкие люди, та же бессмысленная болтовня. У меня было такое чувство, словно я стою у огромной пропасти, и никто не мог меня вытащить, никто не заботился... или даже не замечал...
+"""
+st.markdown(quote)
+
+quote = """
+> Уоллес Хартли : [ оркестр закончил играть, и Хартли говорит группе, что они могут отправиться за лодками. Он остается и начинает играть «Ближе к тебе, мой Бог». Один за другим группа возвращается и играет, а сцены меняются. когда мелодия заканчивается, вода вот-вот их поглотит ] Джентльмены. Для меня было большой честью играть с вами сегодня вечером.
+"""
+st.markdown(quote)
+
+
+quote = """
+> Роуз : [ отпуская руку Джека ] Я никогда не отпущу, Джек. Я обещаю.
+[ она целует ему руку и смотрит, как он тонет, почти разваливаясь, прежде чем она наконец забирается обратно в воду, чтобы позвать спасательную шлюпку обратно ]
+"""
+st.markdown(quote)
