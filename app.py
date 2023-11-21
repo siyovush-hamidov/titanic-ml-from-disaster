@@ -69,6 +69,13 @@ if st.button('Узнать'):
         st.markdown("<h1 style='text-align: center; color: black;'>К сожалению, этот пассажир не выжил после крушения лайнера...</h1>", unsafe_allow_html=True)
     else:
         st.markdown("<h1 style='text-align: center; color: black;'>К счастью, пассажир выжил после крушения лайнера!</h1>", unsafe_allow_html=True)
+
+<audio controls>
+  <source src="your-audio-file.mp3" type="audio/mpeg">
+  Ваш браузер не поддерживает аудио элемент.
+</audio>
+
+      
 quote = """
 > Роуз : Я знаю, о чем ты, должно быть, думаешь. «Бедная маленькая богатая девочка, что она знает о страданиях?»
 Джек : Нет-нет, я не об этом думал. Я думал о том, что могло случиться с этой девушкой, что заставило ее думать, что у нее нет выхода?
