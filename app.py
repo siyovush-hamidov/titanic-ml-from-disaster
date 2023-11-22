@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import random
 
 # Загрузите модель
 model = joblib.load('titanic-ml-from-disaster.joblib')
@@ -14,7 +15,22 @@ def process_input(sex, age, fare, is_alone):
     else:
         sex = 1
     # Верните DataFrame
-    return pd.DataFrame({'Pclass': [2], 'Sex': [sex], 'Age': [age], 'SibSp': [0], 'Parch': [0], 'Fare': [fare], 'Embarked': [0], 'Relatives': [0], 'Is_Alone': [is_alone], 'Title': [1], 'Deck': [3], 'Age_Class': [age * 1], 'Fare_per_Person': [0]})
+    Pclass = random.randint(1,3)
+    SibSp = random.randint(0,11)
+    Embarked = random.randint(0,2)
+    Relatives = random.randint(0,5)
+    if(is_alone):
+        SibSp = 0
+    else:
+        SibSp = 1
+    Parch = random.randint(0,2)
+    if(sex == 0):
+        Title = 1;
+    else:
+        Title = 2;
+    Deck = random.randint(0,8)
+    Fare_per_person = random.randint(0,3)
+    return pd.DataFrame({'Pclass': [Pclass], 'Sex': [sex], 'Age': [age], 'SibSp': [SibSp], 'Parch': [Parch], 'Fare': [fare], 'Embarked': [Embarked], 'Relatives': [Relatives], 'Is_Alone': [is_alone], 'Title': [Title], 'Deck': [Deck], 'Age_Class': [age * 1], 'Fare_per_Person': [Fare_per_person]})
 
 # Создайте форму для ввода данных
 st.markdown("<h1 style='text-align: center; color: black;'>\"Рассказанная Немногими Выжившими История...\"</h1>", unsafe_allow_html=True)
