@@ -27,7 +27,7 @@ def process_input(sex, age, fare, is_alone):
     if(sex == 0):
         rdTitle = 1;
     else:
-        Title = 2;
+        rdTitle = 2;
     rdDeck = random.randint(0,8)
     rdFare_per_person = random.randint(0,3)
     return pd.DataFrame({'Pclass': [rdPclass], 'Sex': [sex], 'Age': [age], 'SibSp': [rdSibSp], 'Parch': [rdParch], 'Fare': [fare], 'Embarked': [rdEmbarked], 'Relatives': [rdRelatives], 'Is_Alone': [is_alone], 'Title': [rdTitle], 'Deck': [rdDeck], 'Age_Class': [age * 1], 'Fare_per_Person': [rdFare_per_person]})
