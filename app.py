@@ -22,7 +22,7 @@ def process_input(sex, age, fare, is_alone):
     if(is_alone):
         rdSibSp = 0
     else:
-        SibSp = 1
+        rdSibSp = 1
     rdParch = random.randint(0,2)
     if(sex == 0):
         rdTitle = 1;
