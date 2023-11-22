@@ -30,7 +30,7 @@ def process_input(sex, age, fare, is_alone):
         Title = 2;
     Deck = random.randint(0,8)
     Fare_per_person = random.randint(0,3)
-    return pd.DataFrame({'Pclass': Pclass, 'Sex': sex, 'Age': age, 'SibSp': SibSp, 'Parch': Parch, 'Fare': fare, 'Embarked': Embarked, 'Relatives': Relatives, 'Is_Alone': is_alone, 'Title': Title, 'Deck': Deck, 'Age_Class': age * 1, 'Fare_per_Person': Fare_per_person})
+    return pd.DataFrame({'Pclass': [Pclass], 'Sex': [sex], 'Age': [age], 'SibSp': [SibSp], 'Parch': [Parch], 'Fare': [fare], 'Embarked': [Embarked], 'Relatives': [Relatives], 'Is_Alone': [is_alone], 'Title': [Title], 'Deck': [Deck], 'Age_Class': [age * 1], 'Fare_per_Person': [Fare_per_person]})
 
 # Создайте форму для ввода данных
 st.markdown("<h1 style='text-align: center; color: black;'>\"Рассказанная Немногими Выжившими История...\"</h1>", unsafe_allow_html=True)
