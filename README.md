@@ -1,6 +1,10 @@
 # 🚢 Titanic Machine Learning from Disaster
 <center><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca6c7bc7-3c52-482a-9d4c-5043d91da7c3/dfpb7y1-bfff4c04-4e77-4af6-bda0-a8060abb8097.png/v1/fill/w_900,h_1303,q_80,strp/my_titanic_poster_2023_editon_by_doodle_for_adventure_dfpb7y1-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMyIsInBhdGgiOiJcL2ZcL2NhNmM3YmM3LTNjNTItNDgyYS05ZDRjLTUwNDNkOTFkYTdjM1wvZGZwYjd5MS1iZmZmNGMwNC00ZTc3LTRhZjYtYmRhMC1hODA2MGFiYjgwOTcucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.F4woajhvJRW4DDE3vk1GnDTVZ_-NKewPb2_IjUn4q2E" width="900" height="1300"></center>
 
+## Website
+The project is available to use by following this <a href="https://siyovush-hamidov-titanic-ml-from-disaster.streamlit.app/">link</a>.
+It may ask you to rerun the project if is hasn't been run for a while. 
+
 ## About
 The Titanic Machine Learning from Disaster project is a classic machine learning challenge hosted on Kaggle. The challenge revolves around predicting which passengers survived the Titanic shipwreck based on various features such as age, gender, ticket class, and more. It serves as an introductory project for beginners in the field of data science and machine learning, providing an opportunity to apply fundamental concepts and techniques to a real-world dataset.
 
